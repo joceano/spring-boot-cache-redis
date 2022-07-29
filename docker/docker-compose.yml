@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  redis:
+    image: redis:6
+    hostname: spring-boot-cache-redis
+    container_name: spring-boot-cache-redis
+    ports:
+      - 6379:6379
